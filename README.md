@@ -1,15 +1,19 @@
-# adfinder - Admin Login FInder
+# adfinder - Admin Login Finder
 Simple tool for finding panel for admin login
+
 ## How to Use
 ```sh
 php find php
 ```
 Input your target, then select the panel type or leave it blank to use your own wordlist instead default one
+
 ## Dependencies
 + PHP
 + PHP-Curl
+
 ## Optional Dependencies
 + Custom Wordlists
+
 ## Default Supported Panel Type
 + **ASP** - This filetype may contain scripts written in VBScript or JavaScript
 + **ASPX** - Same as ASP, but Extended
@@ -18,6 +22,7 @@ Input your target, then select the panel type or leave it blank to use your own 
 + **CGI** - This filetype are often used for running basic web scripts like formmail or advertisements
 + **JS** - This filetype are used to execute JavaScript instructions in webpages
 + **PHP** - This filetype only used at webpages with extended functionality, most of login panel use this filetype
+
 ## HTTP Response Explanation
 + **200 OK** - Request succeded, there is high probability that the login panel is there
 + **302 Found** - Temporary redirected, maybe the login panel is there, maybe not
